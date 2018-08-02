@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ACDA0A7721137B1000E0F7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA0A7621137B1000E0F7F4 /* AppDelegate.swift */; };
-		ACDA0A7921137B1000E0F7F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA0A7821137B1000E0F7F4 /* ViewController.swift */; };
 		ACDA0A7C21137B1000E0F7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDA0A7A21137B1000E0F7F4 /* Main.storyboard */; };
 		ACDA0A7E21137B1A00E0F7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDA0A7D21137B1A00E0F7F4 /* Assets.xcassets */; };
 		ACDA0A8121137B1A00E0F7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDA0A7F21137B1A00E0F7F4 /* LaunchScreen.storyboard */; };
+		ACDA0A89211380A500E0F7F4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA0A88211380A500E0F7F4 /* TableViewController.swift */; };
+		ACDA0A8B211380B600E0F7F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA0A8A211380B600E0F7F4 /* ViewController.swift */; };
+		ACDA0A8D21139BC100E0F7F4 /* ArmazenamentoDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA0A8C21139BC100E0F7F4 /* ArmazenamentoDados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACDA0A7321137B1000E0F7F4 /* MinhasViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhasViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDA0A7621137B1000E0F7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACDA0A7821137B1000E0F7F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACDA0A7B21137B1000E0F7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACDA0A7D21137B1A00E0F7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACDA0A8021137B1A00E0F7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACDA0A8221137B1A00E0F7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDA0A88211380A500E0F7F4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ACDA0A8A211380B600E0F7F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDA0A8C21139BC100E0F7F4 /* ArmazenamentoDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmazenamentoDados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				ACDA0A7621137B1000E0F7F4 /* AppDelegate.swift */,
-				ACDA0A7821137B1000E0F7F4 /* ViewController.swift */,
 				ACDA0A7A21137B1000E0F7F4 /* Main.storyboard */,
+				ACDA0A8A211380B600E0F7F4 /* ViewController.swift */,
+				ACDA0A88211380A500E0F7F4 /* TableViewController.swift */,
+				ACDA0A8C21139BC100E0F7F4 /* ArmazenamentoDados.swift */,
 				ACDA0A7D21137B1A00E0F7F4 /* Assets.xcassets */,
 				ACDA0A7F21137B1A00E0F7F4 /* LaunchScreen.storyboard */,
 				ACDA0A8221137B1A00E0F7F4 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDA0A7921137B1000E0F7F4 /* ViewController.swift in Sources */,
+				ACDA0A8D21139BC100E0F7F4 /* ArmazenamentoDados.swift in Sources */,
+				ACDA0A8B211380B600E0F7F4 /* ViewController.swift in Sources */,
 				ACDA0A7721137B1000E0F7F4 /* AppDelegate.swift in Sources */,
+				ACDA0A89211380A500E0F7F4 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
